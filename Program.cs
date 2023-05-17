@@ -10,7 +10,7 @@ namespace helloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World\n");
+           /* Console.WriteLine("Hello World\n");
             Console.WriteLine("Hello World\n");
             Console.WriteLine("Hello World\n");
             Console.WriteLine("Hello World\n");
@@ -20,6 +20,19 @@ namespace helloWorld
             Console.WriteLine("Hello World\n");
 
             Console.ReadLine();
+            //single line comment
+            /*multiple
+             line comment
+            */
+            int a = 10;
+            int b = 30;
+            int sum = a + b;
+            Console.WriteLine(sum);
+            Console.ReadLine();
+
+
+
+
 
         }
     }
